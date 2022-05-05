@@ -224,6 +224,7 @@ button {
   width: 30px;
   height: 30px;
   color: #6b85d8;
+
 }
 .featured_info {
   width: 100%;
@@ -372,11 +373,33 @@ footer {
 }
 
 
-footer{
-  padding: 50px;
+
+
+/* footer  */
+
+
+
+.icons{
+  display: flex;
+  justify-content: center;
+  background-color:#323B40;
+  
+  
 }
 
-footer a{
-  font-size: 15px;
-  color: #FFFFFF;
+.icons >  a  {
+  padding: 16px;
+ 
 }
+
+
+
+
+
+
+
+
+
+
+
+
