@@ -1,0 +1,68 @@
+:root{
+    --fuenteHeading: 'PT', sans-serif;
+    --fuenteParrfos: 'Open Sans' , sans-serif;
+
+    --primario: #784D3C;
+    --gris: #e1e1e1;
+    --blanco: #ffffff;
+    --negro: #000000;
+}
+
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5% ; /* 1 rem = 10px */
+
+}
+
+*, *:before , *:after{
+    box-sizing: inherit;
+}
+
+
+body{
+    font-family: var(--fuenteParrfos);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+
+/* globales */
+
+.contenedor{
+    
+    width: min(90%, 120rem);
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+
+.centrar-texto{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sobre-nosotros{
+    padding-top: 20px;
+}
+
+img{
+    width: 100%;
+    height: 405;
+    border-radius: 5px;
+}
+
+@media(min-width: 768px){
+    .sobre-nosotros{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto{
+        flex-basis: calc(50% - 1rem);
+    }
+
+    
+}
